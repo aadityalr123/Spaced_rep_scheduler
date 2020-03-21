@@ -1,4 +1,4 @@
-('C:\\Users\\Work\\Documents\\Projects_and_learning\\Projects\\Active\\Spaced_rep_scheduler\\Python_version_1\\build\\Python_version_1\\PYZ-00.pyz',
+('C:\\Users\\Work\\Documents\\Projects_and_learning\\Projects\\Active\\Spaced_rep_scheduler\\python_implementation\\build\\python_implementation\\PYZ-00.pyz',
  [('codecs', 'c:\\python27\\lib\\codecs.py', 'PYMODULE'),
   ('encodings', 'c:\\python27\\lib\\encodings\\__init__.py', 'PYMODULE'),
   ('encodings.idna', 'c:\\python27\\lib\\encodings\\idna.py', 'PYMODULE'),

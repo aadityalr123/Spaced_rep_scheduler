@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['Python_version_1.py'],
-             pathex=['C:\\Users\\Work\\Documents\\Projects_and_learning\\Projects\\Active\\Spaced_rep_scheduler\\Python_version_1'],
+a = Analysis(['python_implementation.py'],
+             pathex=['C:\\Users\\Work\\Documents\\Projects_and_learning\\Projects\\Active\\Spaced_rep_scheduler\\python_implementation'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -19,15 +19,19 @@ pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
 exe = EXE(pyz,
           a.scripts,
-          a.binaries,
-          a.zipfiles,
-          a.datas,
           [],
-          name='Python_version_1',
+          exclude_binaries=True,
+          name='python_implementation',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          upx_exclude=[],
-          runtime_tmpdir=None,
           console=True )
+coll = COLLECT(exe,
+               a.binaries,
+               a.zipfiles,
+               a.datas,
+               strip=False,
+               upx=True,
+               upx_exclude=[],
+               name='python_implementation')
