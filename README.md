@@ -2,7 +2,7 @@
 #### Author: Aaditya Rajesh
 ###### This program is meant to be a executable that when run, automatically picks up today date and displays the notes of which day you need to revise.
 
-##### Found on a site by Daniel Wong who apparently got an extremely high overall gpa in a souble major.
+##### Based on recommended schedule from site by Daniel Wong
 ######    1st review: 1 day after learning the new information
 ######    2nd review: 3 days after the 1st review
 ######    3rd review: 7 days after the 2nd review
